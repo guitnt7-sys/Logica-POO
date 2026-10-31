@@ -11,7 +11,10 @@ class Carro:
 
     def exibirInfo(self):
         # TODO 1: substitua pass por um print() que mostre marca, modelo e ano.
-        print(f"Marca: {self.marca} |  Modelo: {self.modelo} | Ano: {self.ano}")
+        print("============== Dados do carro ============")
+        print(f"| Marca: {self.marca}                   ")
+        print(f"| Modelo: {self.modelo}                 ")
+        print(f"| Ano: {self.ano}                       ")
       
     def buzinar(self):
       print("Bip bip!")
@@ -21,5 +24,6 @@ carro2 = Carro("volkswagen", "Polo ", 2024)
 
 # TODO 3: chame exibirInfo() para os DOIS objetos criados.
 carro1.exibirInfo()
-carro2.exibirInfo()
+print()
 carro1.buzinar()
+carro2.exibirInfo()
